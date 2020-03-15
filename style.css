@@ -30,4 +30,113 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+h2 {
+    font-size: 18px;
+}
+
+.popis {
+    font-size: 28px;
+    font-weight: 300;
+}
+.lorem {
+    font-size: 12px;
+}
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu {
+    text-align: left;
+    color: #48418e;
+    padding-top: 10px;
+    height: 8%;
+}
+
+.druha {
+    background-image: url(images/pozadi.jpg);
+    position: relative;
+    height: 350px;
+    color: white;
+    padding: 30px;
+}
+
+.ruka {
+    position:absolute;
+    right: 0;
+    bottom: -6px;
+}
+
+.ctvrta {
+    background-color: #48418e;
+    height: 5%;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.treti {
+    display:flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.tlacitko {
+    background-color:transparent;
+    padding: 10px 15px;
+    border: 0.5px solid white;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.tlacitko a {
+    text-decoration: none;
+    color: white;
+}
+
+.tlacitko a:hover {
+    background-color: #48418e;
+}
+
+.tlacidlo {
+    background-color:transparent;
+    padding: 10px 15px;
+    border: 0.5px solid white;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+}
+
+.tlacidlo a {
+    text-decoration: none;
+    color: white;
+}
+
+.tlacidlo a:hover {
+    background-color: #48418e;
+}
+
+.cestuj, .chatuj, .zazij {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px 10px 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.letadlo, .chat, .mapa {
+    width: 60px;
+}
+
 /* ----- zde začni psát vlastní CSS ----- */
